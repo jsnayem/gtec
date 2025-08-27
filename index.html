@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTEC | Premium Design Studio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="transparent">
+        <img src="static/logo.png" alt="Elegant Interiors" class="logo">
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Background Carousel -->
+    <div class="background-carousel">
+        <div class="background-slide active" style="background-image: url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80')"></div>
+        <div class="background-slide" style="background-image: url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80')"></div>
+        <div class="background-slide" style="background-image: url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80')"></div>
+        <div class="background-slide" style="background-image: url('https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80')"></div>
+        <div class="background-slide" style="background-image: url('https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80')"></div>
+    </div>
+
+    <!-- Main Carousel -->
+    <div class="main-carousel-container">
+        <div class="carousel">
+            <button class="carousel-button prev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            
+            <div class="carousel-images">
+                <!-- Far left -->
+                <div class="carousel-image image-outer pos-1">
+                    <img src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Bathroom Design">
+                </div>
+                
+                <!-- Middle left -->
+                <div class="carousel-image image-middle pos-2">
+                    <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Dining Room Design">
+                </div>
+                
+                <!-- Center -->
+                <div class="carousel-image image-center pos-3">
+                    <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Living Room Design">
+                </div>
+                
+                <!-- Middle right -->
+                <div class="carousel-image image-middle pos-4">
+                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Kitchen Design">
+                </div>
+                
+                <!-- Far right -->
+                <div class="carousel-image image-outer pos-5">
+                    <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Bedroom Design">
+                </div>
+            </div>
+            
+            <button class="carousel-button next">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        
+        <!-- Carousel indicators -->
+        <div class="carousel-indicators">
+            <span class="indicator active" data-index="0"></span>
+            <span class="indicator" data-index="1"></span>
+            <span class="indicator" data-index="2"></span>
+            <span class="indicator" data-index="3"></span>
+            <span class="indicator" data-index="4"></span>
+        </div>
+    </div>
+
+    <!-- Content Section -->
+    <section class="content">
+        <div class="section-title">
+            <h2>Our Services</h2>
+            <p>We create beautiful, functional spaces that reflect your personality and enhance your lifestyle.</p>
+        </div>
+        
+        <div class="services">
+            <div class="service-card">
+                <i class="fas fa-couch"></i>
+                <h3>Residential Design</h3>
+                <p>Transform your home into a beautiful and functional space that reflects your personality.</p>
+            </div>
+            
+            <div class="service-card">
+                <i class="fas fa-building"></i>
+                <h3>Commercial Design</h3>
+                <p>Create inspiring workspaces that boost productivity and reflect your company's brand.</p>
+            </div>
+            
+            <div class="service-card">
+                <i class="fas fa-palette"></i>
+                <h3>Color Consultation</h3>
+                <p>Choose the perfect color palette to set the right mood and atmosphere for your space.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Green Touch Engineering & Construction</h3>
+                <p>Creating beautiful spaces since 2010</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>17/1, Chamelibagh, Shantinagar, Dhaka-1217</p>
+                <p>Phone: 02 222-225143</p>
+                <p>Email: greentouchengbd@gmail.com</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fab fa-houzz"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2025 Green Touch Engineering & Construction. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="static/script.js"></script>
+</body>
+</html>
