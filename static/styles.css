@@ -52,6 +52,7 @@ header.scrolled {
 .nav-links a {
     color: #fff;
     text-decoration: none;
+    font-size: 24px;
     font-weight: 500;
     transition: color 0.3s;
 }
