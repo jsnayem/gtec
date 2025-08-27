@@ -168,53 +168,63 @@ header.scrolled .hamburger {
 /* Image sizes */
 .image-outer {
     width: 210px;
-    height: 300px;
-    /* opacity: 0.6; */
+    height: 320px;
     z-index: 1;
 }
 
 .image-middle {
     width: 420px;
-    height: 550px;
-    /* opacity: 0.8; */
+    height: 600px;
     z-index: 2;
 }
 
 .image-center {
     width: 560px;
-    height: 600px;
+    height: 700px;
     z-index: 3;
-    opacity: 1;
 }
 
 /* Positioning */
 .pos-1 { /* Far left */
-    left: 0;
+    left: -5%;
+    bottom: -15%;
     align-self: flex-end;
     transform: translateX(10%) scale(0.7);
 }
 
 .pos-2 { /* Middle left */
     left: 20%;
+    top: 20%;
     align-self: flex-end;
     transform: translateX(-50%) scale(0.85);
 }
 
 .pos-3 { /* Center */
     left: 50%;
+    bottom: -5%;
     transform: translateX(-50%) scale(1);
 }
 
 .pos-4 { /* Middle right */
     left: 80%;
+    bottom: 25%;
     align-self: flex-start;
     transform: translateX(-50%) scale(0.85);
 }
 
 .pos-5 { /* Far right */
     left: 100%;
+    top: -20%;
     align-self: flex-start;
     transform: translateX(-90%) scale(0.7);
+}
+.pos-6{
+    position: absolute;
+    right: 55%;
+    bottom: 75%;
+    align-self: flex-start;
+    transform: translateX(0%) scale(0.4);
+    z-index: 10;
 }
 
 /* Carousel Indicators */
