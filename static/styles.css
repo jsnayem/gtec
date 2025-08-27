@@ -467,6 +467,12 @@ footer {
     .pos-5 {
         transform: translateX(-110%) scale(0.7);
     }
+
+    .pos-6 {
+    right: 75%;
+    bottom: 95%;
+    transform: translateX(50%) scale(0.3);
+    }
 }
 
 @media (max-width: 576px) {
